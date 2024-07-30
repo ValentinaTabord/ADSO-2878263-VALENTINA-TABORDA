@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #3498db; /* Color de fondo azul */
+  font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* 3 columnas de 100px cada una */
+  grid-template-rows: repeat(3, 100px); /* 3 filas de 100px cada una */
+  gap: 2px; /* Espacio entre las celdas */
+  background-color: white; /* Color de fondo del tablero */
+  padding: 10px; /* Espacio interno del tablero */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid purple; /* Borde azul */
+  font-size: 3rem;
+  color: #fff;
+  background-color: palevioletred;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+.cell:hover {
+  background-color: pink;
+  box-shadow: 0 0 5px plum;
+}
