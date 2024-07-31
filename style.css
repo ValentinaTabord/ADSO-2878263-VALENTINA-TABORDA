@@ -36,3 +36,19 @@ body {
   background-color: pink;
   box-shadow: 0 0 5px plum;
 }
+
+#reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0653f8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#reset-button:hover {
+  background-color: #3498db;
+}
