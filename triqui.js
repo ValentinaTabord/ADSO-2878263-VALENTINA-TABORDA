@@ -60,3 +60,6 @@ function checkWinner() {
 
 // Iniciar el juego al cargar la página
 window.onload = startGame;
+
+// Añadir evento al botón de reinicio
+resetButton.addEventListener('click', resetGame)
